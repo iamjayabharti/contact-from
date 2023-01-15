@@ -1,0 +1,58 @@
+h1{
+    font-size: 35px;
+
+    color: white;
+    background-color: rgb(34, 163, 34);
+    padding: 20px; 
+    border-radius: 5px;
+
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.container{
+    background-color: #f2f2f2;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    max-width: 400px; 
+    box-shadow: 10px 10px 50px gray;
+}
+
+.contact{
+    background-color: rgb(21, 141, 21);
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+.btn{
+    padding: 5px 20px 5px;
+    background-color: rgb(21, 141, 21);
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    border: 1px solid rgb(21, 141, 21);
+
+}
+.btn:hover{
+    background-color: green;
+}
+
+input {
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+
+
