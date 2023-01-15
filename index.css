@@ -1,6 +1,5 @@
 h1{
     font-size: 35px;
-
     color: white;
     background-color: rgb(34, 163, 34);
     padding: 20px; 
@@ -24,7 +23,7 @@ body {
     border: 2px solid #111111;
     border-radius: 5px;
     max-width: 400px; 
-    box-shadow: 10px 10px 50px gray;
+    box-shadow: 4px 4px 10px #f2f2f2;
 }
 
 .contact{
@@ -53,6 +52,34 @@ input {
     margin-top: 5px;
     
 }
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: red;
+    }
+}
+
+
+@media screen and (max-width:550px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (max-width:400px) {
+    body {
+        background-color: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
